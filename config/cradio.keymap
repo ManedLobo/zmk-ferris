@@ -40,7 +40,7 @@
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ sqt      │
-            HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,        SQT)
+            HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,        SEMI)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
@@ -70,14 +70,14 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  TAB     │          │          │          │  CAPS    │   │  DOWN    │  RIGHT   │          │          │  PSCRN   │
-            &kp TAB    &trans     &trans     &trans    &caps_word      &kp DOWN  &kp RIGHT   &trans     &trans    &kp PSCRN
+        //│  TAB     │          │          │          │  CAPS    │   │          │          │          │          │  PSCRN   │
+            &kp TAB    &trans     &trans     &trans    &caps_word      &trans     &trans     &trans     &trans    &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  PREV    │  NEXT    │ VOL UP   │  PG UP   │  HOME    │   │  LEFT    │          │          │          │          │
-         &kp C_PREV  &kp C_NEXT &kp C_VOL_UP  &kp PG_UP &kp HOME       &kp LEFT   &trans     &trans     &trans     &trans
+        //│  PREV    │  NEXT    │ VOL UP   │  PG UP   │  HOME    │   │  LEFT    │  DOWN    │  UP      │  RIGHT   │          │
+         &kp C_PREV  &kp C_NEXT &kp C_VOL_UP  &kp PG_UP &kp HOME       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  MUTE    │  P/P     │ VOL DOWN │  PG DOWN │  END     │   │  UP      │          │          │ QWERTY   │          │
-           &kp C_MUTE &kp C_PP  &kp C_VOL_DN &kp PG_DN  &kp END        &kp UP     &trans     &trans     &tog 4     &trans
+        //│  MUTE    │  P/P     │ VOL DOWN │  PG DOWN │  END     │   │          │          │          │ CLMKDH   │          │
+           &kp C_MUTE &kp C_PP  &kp C_VOL_DN &kp PG_DN  &kp END        &trans     &trans     &trans     &tog 4     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────
