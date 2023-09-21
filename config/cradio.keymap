@@ -59,8 +59,8 @@
         //│  !       │  @       │  (       │  )       │  +       │   │  #       │  -       │  =       │  _       │  sqt     │
             &kp EXCL   &kp AT     &kp LPAR   &kp RPAR   &kp PLUS         &kp HASH   &kp MINUS  &kp EQUAL  &kp UNDER   &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  $       │  \ |     │  {       │  }       │  ~       │   │  &       │  [       │  ]       │  %       │  ^       │
-            &kp DLLR   &kp BSLH   &kp LBRC   &kp RBRC   &kp TILDE      &kp AMPS   &kp LBKT   &kp RBKT   &kp PRCNT  &kp CARET
+        //│  ~       │  ^       │  {       │  }       │  \ |     │   │  &       │  [       │  ]       │  $       │  %       │
+            &kp TILDE   &kp CARET   &kp LBRC   &kp RBRC   &kp BSLH      &kp AMPS   &kp LBKT   &kp RBKT   &kp DLLR  &kp PRCNT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans        &kp GRAVE   &kp DEL
         //                                 ╰──────────┴──────────╯   ╰────`─────┴──────────╯
