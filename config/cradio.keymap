@@ -56,13 +56,13 @@
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  !       │  @       │  (       │  )       │  +       │   │  #       │  -       │  =       │  _       │  sqt     │
-            &kp EXCL   &kp AT     &kp LPAR   &kp RPAR   &kp PLUS         &kp HASH   &kp MINUS  &kp EQUAL  &kp UNDER   &kp SQT
+        //│  !       │  @       │  (       │  )       │  +       │   │  -       │  _       │  =       │  #       │  sqt     │
+            &kp EXCL   &kp AT     &kp LPAR   &kp RPAR   &kp PLUS       &kp MINUS  &kp UNDER  &kp EQUAL  &kp HASH   &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ~       │  ^       │  {       │  }       │  \ |     │   │  &       │  [       │  ]       │  $       │  %       │
             &kp TILDE   &kp CARET   &kp LBRC   &kp RBRC   &kp BSLH      &kp AMPS   &kp LBKT   &kp RBKT   &kp DLLR  &kp PRCNT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans        &kp GRAVE   &kp DEL
+                                             &trans     &trans        &kp GRAVE   &kp STAR
         //                                 ╰──────────┴──────────╯   ╰────`─────┴──────────╯
             >;
         };
